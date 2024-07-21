@@ -1,0 +1,49 @@
+﻿- type: body
+  id: Burgerperson
+  name: burgerperson
+  root: torso
+  slots:
+    head:
+      part: HeadBurgerperson
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes #(Even though they aren't supposed to have normal eyes.)
+    torso:
+      part: TorsoBurgerperson
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmBurgerperson
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmBurgerperson
+      connections:
+      - left hand
+    right hand:
+      part: RightHandBurgerperson
+    left hand:
+      part: LeftHandBurgerperson
+    right leg:
+      part: RightLegBurgerperson
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegBurgerperson
+      connections:
+      - left foot
+    right foot:
+      part: RightFootBurgerperson
+    left foot:
+      part: LeftFootBurgerperson

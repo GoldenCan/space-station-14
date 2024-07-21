@@ -1,0 +1,117 @@
+- type: species
+  id: Burgerperson
+  name: species-name-human #Until i make unique burger-names.
+  roundStart: false
+  prototype: MobBurgerperson
+  sprites: MobBurgerpersonSprites
+  markingLimits: MobHumanMarkingLimits #I don't know what this means.
+  dollPrototype: MobBurgerpersonDummy
+  skinColoration: HumanToned
+  defaultSkinTone: "#9a7c5a"
+
+- type: speciesBaseSprites
+  id: MobBurgerpersonSprites
+  sprites:
+    Head: MobBurgerpersonHead
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Chest: MobBurgerpersonTorso
+    Eyes: MobBurgerpersonEyes
+    LArm: MobBurgerpersonLArm
+    RArm: MobBurgerpersonRArm
+    LHand: MobBurgerpersonLHand
+    RHand: MobBurgerpersonRHand
+    LLeg: MobBurgerpersonLLeg
+    RLeg: MobBurgerpersonRLeg
+    LFoot: MobBurgerpersonLFoot
+    RFoot: MobBurgerpersonRFoot
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonEyes
+  baseSprite:
+    sprite: Mobs/Customization/eyes.rsi
+    state: no_eyes
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonHead
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonTorso
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonLLeg
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonLHand
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonLArm
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonLFoot
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonRLeg
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonRHand
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonRArm
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobBurgerpersonRFoot
+  baseSprite:
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: r_foot

@@ -232,6 +232,14 @@
     Bloodloss: 0.0
     Cellular: 0.0
 
+# As the burgerperson is created by genetic experiment, rather than a burger animated by bluespace magic, it still takes damage from the same damage types as humans, lizards, monkeys, etc. do.
+- type: damageModifierSet
+  id: Burger
+  coefficients:
+    Piercing: 0.9
+    Cold: 0.6
+    Poison: 0.8
+
 # Represents which damage types should be modified
 # in relation to how they cause bleed rate.
 - type: damageModifierSet

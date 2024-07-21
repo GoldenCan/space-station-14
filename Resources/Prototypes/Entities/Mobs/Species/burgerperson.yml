@@ -1,0 +1,38 @@
+- type: entity
+  save: false
+  name: Urist McBurger
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobBurgerperson
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Burgerperson
+  - type: Icon
+    sprite: Mobs/Species/Burger/parts.rsi
+    state: full
+  - type: Body
+    prototype: Burgerperson #Should work.
+    requiredLegs: 2
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Burger
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#896e55"
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+      - id: FoodBurgerPlain #perhaps the burgers could be randomized
+        amount: 4
+  - type: Bloodstream
+    bloodReagent: Ketchup
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobBurgerpersonDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Burgerperson #Hopefuly this works?

@@ -348,3 +348,11 @@
     back: ClothingBackpackSatchelScience
     ears: ClothingHeadsetRD
     outerClothing: ClothingOuterCoatRD
+
+- type: startingGear
+  id: BurgerpersonEscapee
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorPink
+    shoes: ClothingShoesColorBrown
+    eyes: ClothingEyesFakeEyes
+    back: ClothingBackpackClown

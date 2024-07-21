@@ -31,3 +31,14 @@
   parent: [ClothingEyesEyepatch, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchFlipped
   suffix: flipped
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesFakeEyes
+  name: large googly eyes
+  description: A pair of large googly eyes that can be worn over your own eyes.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Misc/fake_eyes.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Misc/fake_eyes.rsi
